@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">VolleyAPI</string>
+    <string name="action_setting">setting</string>
+    <string name="name_movie">Movie Tittle</string>
+    <string name="movie_details">Movie Details</string>
+    <string name="plot">plot synopsis</string>
+    <string name="rating">User Rating</string>
+    <string name="release">Release Date</string>
+    <string name="pref_sort_ordertabel">Sort Order</string>
+    <string name="pref_sort_orderkey">sortOrder</string>
+    <string name="prefMostPopular">Most Popular</string>
+    <string name="prefHighest_rated">Highs Rates</string>
+    <string name="appbar_scrolling_view_behavior">scrolling_behavior</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

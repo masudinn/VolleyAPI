@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffff"
+    android:layout_margin="1dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:textSize="10dp"
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/hitam"
+            android:textStyle="bold"
+            android:fontFamily="@font/poppinsbld"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="tittle"
+            android:id="@+id/txttittle"
+            android:layout_alignParentTop="true"/>
+
+        <ImageView
+            android:id="@+id/img"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txttittle"
+            android:layout_marginTop="0dp"
+            android:adjustViewBounds="true"
+            android:maxHeight="500dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/movie" />
+
+        <RelativeLayout
+            android:layout_above="@id/type"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingHorizontal="5dp">
+                <TextView
+                    android:drawableLeft="@drawable/star"
+                    android:fontFamily="@font/poppinsreg"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="text"
+                    android:layout_alignParentLeft="true"
+                    android:id="@+id/like"/>
+                <TextView
+                    android:id="@+id/txtdate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="0dp"
+                    android:fontFamily="@font/poppinsreg"
+                    android:text="text" />
+        </RelativeLayout>
+
+        <TextView
+            android:layout_below="@id/img"
+            android:fontFamily="@font/poppinsreg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="type"
+            android:id="@+id/type"/>
+
+        <TextView
+            android:layout_marginTop="3dp"
+            android:id="@+id/txtdes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/type"
+            android:fontFamily="@font/poppinsreg"
+            android:text="desc"/>
+    </RelativeLayout>
+
+</LinearLayout>
